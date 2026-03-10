@@ -16,7 +16,7 @@ const advisors = [
     descriptionParts: [
       "Mr. Shashi Ranjan Chaudhary is the Founder and Principal Consultant of SustainEco Systems & Services. He holds a Master's degree in Ecology and Environmental Sciences from Pondicherry University and brings over 12 years of professional experience in the environmental and social development sectors.",
       'He has successfully led and contributed to more than 50 projects across India, with a strong focus on solid waste management, circular economy interventions, environmental assessments, and sustainable urban systems. His expertise spans baseline studies, system design, regulatory compliance, capacity building, and implementation support for urban local bodies, government agencies, and development organizations.',
-      
+      'Under his leadership, SustainEco emphasizes data-driven decision-making, practical implementation, and technology-enabled monitoring solutions to deliver measurable environmental outcomes. His advisory role provides strategic direction, technical oversight, and quality assurance across all consultancy engagements.',
     ],
     image_url: '',
   },
@@ -26,7 +26,7 @@ const advisors = [
     descriptionParts: [
       'Mr. Sumeet Kumar Singh is a seasoned waste management professional with over 25 years of hands-on leadership experience in Integrated Solid Waste Management (ISWM). His expertise spans the planning, implementation, and operational management of large-scale municipal waste systems.',
       'He brings a strong global perspective, having worked on waste management projects across India, Nigeria, and Ivory Coast. Mr. Singh has successfully managed and overseen city-scale waste management operations handling more than 2,500 tonnes per day, covering end-to-end processes from collection and transportation to treatment and disposal.',
-      
+      'A Certified International Waste Manager (ISWA), he possesses deep technical expertise in solid waste collection systems, landfill design and operations, and circular economy initiatives. His advisory role supports SustainEco Systems & Services with strategic guidance on large-scale operations, system optimization, and international best practices in sustainable waste management.',
     ],
     image_url: '',
   },
@@ -36,7 +36,7 @@ const advisors = [
     descriptionParts: [
       'Mr. Sanjeev Satyanarayan is a senior Data Management, MIS/GIS, and Waste Management expert with over 25 years of multidisciplinary experience spanning solid waste, plastic waste, e-waste, environmental impact assessment, climate change, water resources, and large-scale infrastructure projects.',
       'He currently serves as General Manager (Geomatics & Information Technology / Waste Management) at IRG Systems South Asia Pvt. Ltd., where he has led and delivered complex national and international assignments for government agencies, multilateral institutions, and international organizations.',
-      
+      'He holds a strong academic foundation with degrees in Statistics (B.Sc.), Electronics & Power Engineering (B.E.), and dual MBAs (Marketing and International Business), complemented by advanced training in data analytics, database administration, GIS (ArcGIS), hydrological modeling, Six Sigma, and quality management. He is also a QCI–NABET accredited Functional Area Expert for Noise and Vibration.',
     ],
     image_url: '',
   },

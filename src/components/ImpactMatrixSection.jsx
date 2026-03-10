@@ -9,7 +9,7 @@ const STATIC_METRICS = {
   clients: 100,
   projects: 150,
   lives_impacted: 50000,
-  states_covered: 15,
+  states_covered: 18,
 };
 
 const STATIC_FOOTPRINT = [
@@ -29,6 +29,8 @@ const STATIC_FOOTPRINT = [
   { id: 13, state_code: 'KL', state_name: 'Kerala' },
   { id: 14, state_code: 'GJ', state_name: 'Gujarat' },
   { id: 15, state_code: 'CG', state_name: 'Chhattisgarh' },
+  { id: 16, state_code: 'HR', state_name: 'Haryana' },
+  { id: 17, state_code: 'TN', state_name: 'Tamil Nadu' },
 ];
 
 const ImpactMatrixSection = () => {
@@ -45,7 +47,7 @@ const ImpactMatrixSection = () => {
             </h2>
             <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6">
               {/* Clients Card */}
-              <motion.div 
+              <motion.div
                 whileHover={{ scale: 1.05, rotate: 2 }}
                 className="bg-gradient-to-br from-emerald-600 to-emerald-700 rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 text-white shadow-lg hover:shadow-2xl transition-shadow animate-pulse-glow"
               >
@@ -59,7 +61,7 @@ const ImpactMatrixSection = () => {
               </motion.div>
 
               {/* Projects Card */}
-              <motion.div 
+              <motion.div
                 whileHover={{ scale: 1.05, rotate: -2 }}
                 className="bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 text-white shadow-lg hover:shadow-2xl transition-shadow animate-pulse-glow"
               >
@@ -73,7 +75,7 @@ const ImpactMatrixSection = () => {
               </motion.div>
 
               {/* Lives Impacted Card */}
-              <motion.div 
+              <motion.div
                 whileHover={{ scale: 1.05, rotate: 2 }}
                 className="bg-gradient-to-br from-indigo-500 to-emerald-500 rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 text-white shadow-lg hover:shadow-2xl transition-shadow animate-pulse-glow"
               >
@@ -87,7 +89,7 @@ const ImpactMatrixSection = () => {
               </motion.div>
 
               {/* States Covered Card */}
-              <motion.div 
+              <motion.div
                 whileHover={{ scale: 1.05, rotate: -2 }}
                 className="bg-gradient-to-br from-amber-600 to-indigo-600 rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 text-white shadow-lg hover:shadow-2xl transition-shadow animate-pulse-glow"
               >
@@ -103,7 +105,7 @@ const ImpactMatrixSection = () => {
           </FadeInSection>
 
           <FadeInSection delay={0.2}>
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.02 }}
               className="bg-gradient-to-br from-emerald-50 to-indigo-50 rounded-xl sm:rounded-2xl p-6 sm:p-7 md:p-8 shadow-lg hover:shadow-2xl transition-shadow border-2 border-transparent hover:border-emerald-200"
             >
@@ -112,8 +114,8 @@ const ImpactMatrixSection = () => {
               </h3>
               <div className="bg-white rounded-lg sm:rounded-xl p-5 sm:p-6">
                 <>
-                  <IndiaMap 
-                    highlightedStates={footprintStates.map(s => s.state_code)} 
+                  <IndiaMap
+                    highlightedStates={footprintStates.map(s => s.state_code)}
                     statesData={footprintStates}
                   />
                 </>
