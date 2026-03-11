@@ -33,7 +33,7 @@ const IndiaMap = ({ className = '', highlightedStates = [], statesData = [] }) =
         strokeColor="#b5c7da"
         strokeWidth={0.5}
         hints={true}
-        size={500} // Adjust size as needed to prevent cutting
+        size={{ width: '100%', height: '100%' }} // Adjust size as needed to prevent cutting
       />
     </div>
   );
